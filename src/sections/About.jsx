@@ -14,18 +14,18 @@ const About = () => {
 						performance.
 					</p>
 
-					<div className="a">
+					<div className="flex flex-wrap items-center gap-4 md:gap-7">
 						{aboutItems.map((item, key) => (
 							<div key={key}>
-								<div className="">
-									<span className="">{item.number}</span>
-									<span className="">+</span>
-									<span className=""> {item.label}</span>
+								<div className="flex items-center md:mb-2">
+									<span className="text-2xl font-bold md:text-4xl">{item.number}</span>
+									<span className="text-sky-400 font-semibold md:text-3xl"> + </span>
 								</div>
+									<span className="text-sm text-zinc-400">{item.label}</span>
 							</div>
 						))}
 
-						<img src={logo} alt="logo" width={30} height={30} className="" />
+						<img src={logo} alt="logo" width={30} height={30} className="ml-auto md:w-[40px] md:h-[40px]" />
 					</div>
 				</div>
 			</div>
