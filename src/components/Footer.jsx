@@ -1,4 +1,3 @@
-import React from "react";
 import { sitemap, socials } from "../constants";
 import { ButtonPrimary } from "./Button";
 import { logo } from "../assets/images";
@@ -57,8 +56,8 @@ const Footer = () => {
                     <a href="" className="">
                         <img   
                             src={logo} 
-                            width={40}
-                            height={40}
+                            width={85}
+                            height={85}
                             alt="logo"
                         />
                     </a>

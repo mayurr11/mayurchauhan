@@ -1,30 +1,37 @@
 import PropTypes from "prop-types";
 
-const ButtonPrimary = ({ href, target = "_self", label, icon, classes }) => {
-	if (href) {
-		return (
-			<a href={href} target={target} className={"btn btn-primary " + classes}>
-				{label}{" "}
-				{icon ? (
-					<span className="material-symbols-rounded" aria-hidden="true">
-						{icon}
-					</span>
-				) : undefined}
-			</a>
-		);
-	} else {
-		return (
-			<button className={"btn btn-primary " + classes}>
-				{label}{" "}
-				{icon ? (
-					<span className="material-symbols-rounded" aria-hidden="true">
-						{icon}
-					</span>
-				) : undefined}
-			</button>
-		);
-	}
+const ButtonPrimary = ({ href, target = "_self", label, icon, classes, onClick }) => {
+    const handleClick = () => {
+        if (onClick) {
+            onClick(); // Call the onClick function if provided
+        }
+    };
+
+    if (href) {
+        return (
+            <a href={href} target={target} className={"btn btn-primary " + classes}>
+                {label}{" "}
+                {icon ? (
+                    <span className="material-symbols-rounded" aria-hidden="true">
+                        {icon}
+                    </span>
+                ) : undefined}
+            </a>
+        );
+    } else {
+        return (
+            <button className={"btn btn-primary " + classes} onClick={handleClick}>
+                {label}{" "}
+                {icon ? (
+                    <span className="material-symbols-rounded" aria-hidden="true">
+                        {icon}
+                    </span>
+                ) : undefined}
+            </button>
+        );
+    }
 };
+
 
 ButtonPrimary.propTypes = {
 	label: PropTypes.string.isRequired,

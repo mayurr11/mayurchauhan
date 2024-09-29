@@ -5,7 +5,7 @@ import favicon from "./favicon.svg";
 import figma from "./figma.svg";
 import heroBanner from "./hero-banner.png";
 import javascript from "./javascript.svg";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import mongodb from "./mongodb.svg";
 import nodejs from "./nodejs.svg";
 import people1 from "./people-1.jpg";

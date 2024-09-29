@@ -14,7 +14,7 @@ const Header = () => {
 			>
 				<h1>
 					<a href="/" className="logo">
-						<img src={logo} height={40} width={40} alt="Mayur Chauhan" />
+						<img src={logo} height={85} width={85} alt="Mayur Chauhan" />
 					</a>
 				</h1>
 				<div className="relative md:justify-self-center">
@@ -29,10 +29,13 @@ const Header = () => {
 					<NavBar isNavOpen={isNavOpen} />
 				</div>
 				<a
-					href="#contact"
+					href="https://wa.me/+917359808697?text=Hello%20there!"
+					target="_blank"
 					className="btn btn-secondary max-md:hidden md:justify-self-end"
 				>
-					Contact Me
+					Message me <span className="material-symbols-rounded" aria-hidden="true">
+					chevron_right
+					</span>
 				</a>
 			</div>
 		</header>
