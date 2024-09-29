@@ -7,7 +7,7 @@ const Popup = ({ message, status, onClose }) => {
 	return (
 		<div className="fixed inset-0 flex items-center justify-center bg-gray-950 bg-opacity-10 z-50 backdrop-blur">
 			<div className="bg-gray-700 mx-5 p-7 lg:p-7 lg:w-2/1 rounded-xl shadow-lg">
-				<h3 className="text-2xl font-semibold text font-emoji">
+				<h3 className="text-xl font-semibold text font-emoji">
 					{status === "success"
 						? "Submission Successful! 😃"
 						: "Submission Failed! 😔"}
