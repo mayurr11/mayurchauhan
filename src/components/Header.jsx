@@ -14,7 +14,7 @@ const Header = () => {
 			>
 				<h1>
 					<a href="/" className="logo">
-						<img src={logo} height={85} width={85} alt="Mayur Chauhan" />
+						<img src={logo} height={60} width={60} alt="Mayur Chauhan" />
 					</a>
 				</h1>
 				<div className="relative md:justify-self-center">
