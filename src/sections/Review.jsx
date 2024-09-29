@@ -1,31 +1,3 @@
-// import { reviews } from "../constants";
-// import { ReviewCard } from "../components/";
-
-// const Review = () => {
-// 	return (
-// 		<section id="reviews" className="section">
-// 			<div className="container">
-// 				<h2 className="headline-2 mb-8">What our customers say</h2>
-
-// 				{/* Scrollable container with hidden scrollbar */}
-// 				<div className="flex items-stretch gap-3 overflow-x-scroll hide-scrollbar cursor-grab">
-// 					{reviews.map((review, key) => (
-// 						<ReviewCard
-// 							key={key}
-// 							name={review.name}
-// 							imgSrc={review.imgSrc}
-// 							company={review.company}
-// 							content={review.content}
-// 						/>
-// 					))}
-// 				</div>
-// 			</div>
-// 		</section>
-// 	);
-// };
-
-// export default Review;
-
 import { useEffect, useRef, useState } from "react";
 import { reviews } from "../constants";
 import { ReviewCard } from "../components/";

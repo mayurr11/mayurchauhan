@@ -1,54 +1,52 @@
 import {
-	people1,
-	people2,
-	people3,
-	people4,
-	people5,
-	people6,
+	alpeshbhatt,
+	keyurpatel,
+	rajjoshi,
+	tikumehta,
 } from "../assets/images/index";
 
 
 export const reviews = [
 	{
 		content:
-			"Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.",
-		name: "Sophia Ramirez",
-		imgSrc: people1,
+			"Impressive work! Thanks to Mayur, our real estate website looks amazing and attracts more clients than ever!",
+		name: "Tiku Mehta",
+		imgSrc: tikumehta,
 		company: "Saligram Realtor",
 	},
 	{
 		content:
-			"Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.",
-		name: "Ethan Caldwell",
-		imgSrc: people2,
-		company: "NexaWave",
+			"Mayur did an incredible job on our Ambaji Media website! His creativity and professionalism made the process easy and enjoyable.",
+		name: "Raj Joshi",
+		imgSrc: rajjoshi,
+		company: "Ambaji Media",
 	},
 	{
 		content:
-			"Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.",
-		name: "Liam Bennett",
-		imgSrc: people3,
-		company: "CodeCraft",
+			"We were amazed by how quickly Mayur delivered our Moment Studio website in just 36 hours! His quality of work exceeded our expectations!",
+		name: "Keyur Patel",
+		imgSrc: keyurpatel,
+		company: "Moment Studio",
 	},
 	{
 		content:
-			"Creative and skilled! Produced a modern, user-friendly site that exceeded expectations. Great communication.",
-		name: "Noah Williams",
-		imgSrc: people4,
-		company: "BrightWeb",
+			"Mayur did a great job on our Omkar Jyotish website! His quick turnaround and attention to detail left us very satisfied!",
+		name: "Alpesh Bhatt",
+		imgSrc: alpeshbhatt,
+		company: "Omkar Jyotish",
 	},
-	{
-		content:
-			"Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.",
-		name: "Ava Thompson",
-		imgSrc: people5,
-		company: "TechMosaic",
-	},
-	{
-		content:
-			"Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.",
-		name: "Jonathan",
-		imgSrc: people6,
-		company: "Skyline Digital",
-	},
+	// {
+	// 	content:
+	// 		"Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.",
+	// 	name: "Ava Thompson",
+	// 	imgSrc: people5,
+	// 	company: "TechMosaic",
+	// },
+	// {
+	// 	content:
+	// 		"Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.",
+	// 	name: "Jonathan",
+	// 	imgSrc: people6,
+	// 	company: "Skyline Digital",
+	// },
 ];

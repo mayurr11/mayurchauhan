@@ -8,10 +8,10 @@ import javascript from "./javascript.svg";
 import logo from "./logo.png";
 import mongodb from "./mongodb.svg";
 import nodejs from "./nodejs.svg";
-import people1 from "./people-1.jpg";
-import people2 from "./people-2.jpg";
-import people3 from "./people-3.jpg";
-import people4 from "./people-4.jpg";
+import tikumehta from "./tikumehta.png";
+import rajjoshi from "./rajjoshi.jpg";
+import keyurpatel from "./keyurpatel.jpg";
+import alpeshbhatt from "./alpeshbhatt.jpg";
 import people5 from "./people-5.jpg";
 import people6 from "./people-6.jpg";
 import project1 from "./project-1.jpg";
@@ -50,10 +50,10 @@ export {
 	logo,
 	mongodb,
 	nodejs,
-	people1,
-	people2,
-	people3,
-	people4,
+	alpeshbhatt,
+	keyurpatel,
+	rajjoshi,
+	tikumehta,
 	people5,
 	people6,
 	project1,
