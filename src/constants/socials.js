@@ -1,22 +1,22 @@
 export const socials = [
 	{
-		label: "GitHub",
-		href: "https://www.github.com/codewithsadee-org",
-	},
-	{
 		label: "LinkedIn",
-		href: "https://www.linkedin.com/in/codewithsadee",
+		href: "https://www.linkedin.com/in/mayurr-chauhan/",
 	},
 	{
 		label: "Twitter X",
-		href: "https://x.com/codewithsadee_",
+		href: "https://x.com/Mayurr_Chauhan",
 	},
 	{
 		label: "Instagram",
-		href: "https://www.instagram.com/codewithsadee",
+		href: "https://www.instagram.com/mayurrrchauhan/",
 	},
 	{
-		label: "CodePen",
-		href: "https://codepen.io/codewithsadee",
+		label: "WhatsApp",
+		href: "https://wa.me/+917359808697?text=Hello%20there!",
+	},
+	{
+		label: "GitHub",
+		href: "https://github.com/mayurr11",
 	},
 ];

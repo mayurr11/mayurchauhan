@@ -62,7 +62,7 @@ const Footer = () => {
                         />
                     </a>
 
-                    <p className="text-zinc-500 text-sm">
+                    <p className="text-zinc-500 text-sm place-self-end mb-5">
                         &copy; {new Date().getFullYear()} <span className="text-zinc-200">Mayur Chauhan</span>
                     </p>
                 </div>
