@@ -14,7 +14,7 @@ export const reviews = [
 			"Exceptional web development! Delivered a seamless, responsive site with clean code and great UX.",
 		name: "Sophia Ramirez",
 		imgSrc: people1,
-		company: "PixelForge",
+		company: "Saligram Realtor",
 	},
 	{
 		content:

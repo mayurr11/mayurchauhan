@@ -34,7 +34,7 @@ const About = () => {
 							alt="logo"
 							width={85}
 							height={85}
-							className="ml-auto md:w-[80px] md:h-[80px]"
+							className="ml-auto md:block md:w-[80px] md:h-[80px] hidden"
 						/>
 					</div>
 				</div>

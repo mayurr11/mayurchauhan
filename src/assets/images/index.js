@@ -22,8 +22,24 @@ import project5 from "./project-5.jpg";
 import project6 from "./project-6.jpg";
 import reactLogo from "./react.svg";
 import tailwindCSSLogo from "./tailwindcss.svg";
+import HTML from "./html.svg";
+import typescript from "./typescript.svg";
+import canva from "./canva.svg";
+import vite from "./vite.svg";
+import vscode from "./vs-code.svg";
+import vercel from "./vercel.svg"
+import git from "./git.svg";
+import vue from "./vue.svg";
 
 export {
+	HTML,
+	canva,
+	vite,
+	vscode,
+	vercel,
+	vue,
+	git,
+	typescript,
 	avatar1,
 	css3,
 	expressjs,

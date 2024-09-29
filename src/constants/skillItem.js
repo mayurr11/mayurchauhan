@@ -1,19 +1,23 @@
 import {
-	figma,
+	HTML,
 	css3,
 	javascript,
-	nodejs,
-	expressjs,
-	mongodb,
+	typescript,
 	reactLogo,
 	tailwindCSSLogo,
-} from "../assets/images/index";
+	git,
+	vercel,
+	canva,
+	vscode,
+	vite,
+	vue
+} from "../assets/images/";
 
 export const skillItem = [
 	{
-		imgSrc: figma,
-		label: "Figma",
-		desc: "Design tool",
+		imgSrc: HTML,
+		label: "HTML",
+		desc: "Markup",
 	},
 	{
 		imgSrc: css3,
@@ -26,19 +30,9 @@ export const skillItem = [
 		desc: "Interaction",
 	},
 	{
-		imgSrc: nodejs,
-		label: "NodeJS",
-		desc: "Web Server",
-	},
-	{
-		imgSrc: expressjs,
-		label: "ExpressJS",
-		desc: "Node Framework",
-	},
-	{
-		imgSrc: mongodb,
-		label: "MongoDB",
-		desc: "Database",
+		imgSrc: typescript,
+		label: "TypeScript",
+		desc: "Type Safety",
 	},
 	{
 		imgSrc: reactLogo,
@@ -46,8 +40,39 @@ export const skillItem = [
 		desc: "Framework",
 	},
 	{
+		imgSrc: vue,
+		label: "Vue",
+		desc: "Framework",
+	},
+	{
+		imgSrc: vite,
+		label: "Vite",
+		desc: "Framework",
+	},
+	{
 		imgSrc: tailwindCSSLogo,
-		label: "TailwindCSS",
+		label: "Tailwind CSS",
 		desc: "User Interface",
 	},
+	{
+		imgSrc: git,
+		label: "Git",
+		desc: "Version Control",
+	},
+	{
+		imgSrc: vercel,
+		label: "Vercel",
+		desc: "Deployment",
+	},
+	{
+		imgSrc: vscode,
+		label: "Visual Studio Code",
+		desc: "Code Editor",
+	},
+	{
+		imgSrc: canva,
+		label: "Canva",
+		desc: "Design",
+	},
+	
 ];
