@@ -1,5 +1,5 @@
-import { Header } from "./components/";
-import { Hero, About, Skill, Work } from "./sections/";
+import { Footer, Header } from "./components/";
+import { Hero, About, Skill, Work, Review, Contact } from "./sections/";
 
 const App = () => {
 	return (
@@ -10,7 +10,10 @@ const App = () => {
 				<About />
 				<Skill />
 				<Work />
+				<Review />
+				<Contact />
 			</main>
+			<Footer />
 		</>
 	);
 };

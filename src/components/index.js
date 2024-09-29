@@ -3,6 +3,8 @@ import NavBar from "./NavBar";
 import { ButtonPrimary, ButtonOutline } from "./Button";
 import SkillCard from "./SkillCard";
 import ProjectCard from "./ProjectCard";
+import ReviewCard from "./ReviewCard";
+import Footer from "./Footer";
 
 export {
     Header,
@@ -10,5 +12,7 @@ export {
     ButtonPrimary,
     ButtonOutline,
     SkillCard,
-    ProjectCard
+    ProjectCard,
+    ReviewCard,
+    Footer
 };
