@@ -3,7 +3,7 @@ import css3 from "./css3.svg";
 import expressjs from "./expressjs.svg";
 import favicon from "./favicon.svg";
 import figma from "./figma.svg";
-import heroBanner from "./hero-banner.png";
+import heroBanner from "./hero-img.png";
 import javascript from "./javascript.svg";
 import logo from "./logo.png";
 import mongodb from "./mongodb.svg";

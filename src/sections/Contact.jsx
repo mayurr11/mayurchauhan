@@ -124,14 +124,14 @@ const Contact = () => {
           </div>
           <button type="submit" className="btn btn-primary min-w-full justify-center" disabled={isSubmitting}>
             {isSubmitting ? 'Submitting...' : 'Submit'}
-          </button>
+          </button> 
         </form>
       </div>
 
       {/* Popup for submission status */}
       {showPopup && (
         <Popup message="Your submission status" status={submissionStatus} onClose={handleClosePopup} />
-      )}
+       )}
     </section>
   );
 };
