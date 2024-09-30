@@ -10,6 +10,14 @@ export default {
         sans: ["Inter", "sans-serif"],
         emoji: ["Noto Color Emoji", "Inter"]
       },
+      animation: {
+        'spin': 'l3 1s infinite linear',
+      },
+      keyframes: {
+        l3: {
+          'to': { transform: 'rotate(1turn)' },
+        },
+      },
     },
   },
   plugins: [tailwindScrollbar],

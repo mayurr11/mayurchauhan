@@ -6,6 +6,7 @@ import ProjectCard from "./ProjectCard";
 import ReviewCard from "./ReviewCard";
 import Footer from "./Footer";
 import Popup from "./Popup";
+import Preloader from "./Preloader";
 
 export {
     Header,
@@ -16,5 +17,6 @@ export {
     ProjectCard,
     ReviewCard,
     Footer,
-    Popup
+    Popup,
+    Preloader
 };
