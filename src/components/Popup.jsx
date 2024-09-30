@@ -1,9 +1,8 @@
 // src/components/Popup.jsx
 
-import React from "react";
 import PropTypes from "prop-types";
 
-const Popup = ({ message, status, onClose }) => {
+const Popup = ({ status, onClose }) => {
 	return (
 		<div className="fixed inset-0 flex items-center justify-center bg-gray-950 bg-opacity-10 z-50 backdrop-blur">
 			<div className="bg-gray-700 mx-5 p-7 lg:p-7 lg:w-2/1 rounded-xl shadow-lg">
@@ -26,7 +25,6 @@ const Popup = ({ message, status, onClose }) => {
 };
 
 Popup.propTypes = {
-	message: PropTypes.string,
 	status: PropTypes.string,
 	onClose: PropTypes.string,
 };
