@@ -39,6 +39,7 @@ ButtonPrimary.propTypes = {
 	target: PropTypes.string,
 	icon: PropTypes.string,
 	classes: PropTypes.string,
+	onClick: PropTypes.func,
 };
 
 const ButtonOutline = ({ href, target = "_self", label, icon, classes }) => {
