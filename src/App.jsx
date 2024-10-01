@@ -1,5 +1,5 @@
 // src/App.js
-
+import { Analytics } from '@vercel/analytics/react';
 import { useState, useEffect } from "react";
 import { Footer, Header } from "./components";
 import { Hero, About, Skill, Work, Review, Contact } from "./sections";
@@ -32,6 +32,7 @@ const App = () => {
             <Contact />
           </main>
           <Footer />
+          <Analytics />
         </>
       )}
     </>
