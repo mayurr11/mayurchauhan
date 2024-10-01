@@ -51,8 +51,8 @@ ProjectCard.propTypes = {
 	imgSrc: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
 	tags: PropTypes.array.isRequired,
-	projectLink: PropTypes.string.isRequired,
-	classes: PropTypes.string.isRequired,
+	projectLink: PropTypes.string,
+	classes: PropTypes.string
 };
 
 export default ProjectCard;

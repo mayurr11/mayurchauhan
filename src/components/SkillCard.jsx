@@ -19,7 +19,7 @@ SkillCard.propTypes = {
 	imgSrc: PropTypes.string.isRequired,
 	label: PropTypes.string.isRequired,
 	desc: PropTypes.string.isRequired,
-	classes: PropTypes.string.isRequired
+	classes: PropTypes.string
 };
 
 export default SkillCard;
