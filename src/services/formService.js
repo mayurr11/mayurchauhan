@@ -3,10 +3,6 @@
 const submitForm = async (formData) => {
     const accessKey = import.meta.env.VITE_ACCESS_KEY; // Correctly access the environment variable
 
-    console.log("Access Key:", accessKey); // Log to check its value
-    console.log(import.meta.env); // Check what variables are available
-
-
     if (!accessKey) {
         console.error("Access key is not defined");
         return;
