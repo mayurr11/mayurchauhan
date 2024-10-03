@@ -5,6 +5,8 @@ import {
 	project4,
 	project5,
 	project6,
+	project7,
+	project8,
 } from "../assets/images/index";
 
 export const works = [
@@ -43,5 +45,17 @@ export const works = [
 		title: "Wheather App",
 		tags: ["Open Wheather API"],
 		projectLink: "https://weatherappbymayur.vercel.app/",
+	},
+	{
+		imgSrc: project7,
+		title: "Nike Clone",
+		tags: ["UI", "Tailwind CSS"],
+		projectLink: "https://nikeclonebymayur.vercel.app/",
+	},
+	{
+		imgSrc: project8,
+		title: "Random Joke Generator",
+		tags: ["HTML","CSS","JS", "API",],
+		projectLink: "https://randomjokegenerator.vercel.app/",
 	},
 ];

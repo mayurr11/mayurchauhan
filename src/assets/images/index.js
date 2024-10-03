@@ -20,6 +20,8 @@ import project3 from "./project-3.jpg";
 import project4 from "./project-4.jpg";
 import project5 from "./project-5.jpg";
 import project6 from "./project-6.jpg";
+import project7 from "./project-7.jpg";
+import project8 from "./project-8.jpg";
 import reactLogo from "./react.svg";
 import tailwindCSSLogo from "./tailwindcss.svg";
 import HTML from "./html.svg";
@@ -62,6 +64,8 @@ export {
 	project4,
 	project5,
 	project6,
+	project7,
+	project8,
 	reactLogo,
 	tailwindCSSLogo,
 };
