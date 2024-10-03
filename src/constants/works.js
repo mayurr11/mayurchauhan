@@ -18,6 +18,7 @@ export const works = [
 		imgSrc: project2,
 		title: "Dictionary App",
 		tags: ["Dictonary", "API"],
+		projectLink: "https://dictionaryappbymayur.vercel.app/",
 	},
 	{
 		imgSrc: project3,
