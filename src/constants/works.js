@@ -42,7 +42,7 @@ export const works = [
 	},
 	{
 		imgSrc: project6,
-		title: "Wheather App",
+		title: "Weather App",
 		tags: ["Open Wheather API"],
 		projectLink: "https://weatherappbymayur.vercel.app/",
 	},
