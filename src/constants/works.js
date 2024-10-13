@@ -7,6 +7,7 @@ import {
 	project6,
 	project7,
 	project8,
+	project9
 } from "../assets/images/index";
 
 export const works = [
@@ -42,18 +43,24 @@ export const works = [
 	},
 	{
 		imgSrc: project6,
-		title: "Weather App",
-		tags: ["Open Wheather API"],
-		projectLink: "https://weatherappbymayur.vercel.app/",
+		title: "Omkar Jyotish",
+		tags: ["Astrology", "i18Next"],
+		projectLink: "https://www.omkarjyotish.com/",
 	},
 	{
 		imgSrc: project7,
+		title: "Weather App",
+		tags: ["Open Weather API"],
+		projectLink: "https://weatherappbymayur.vercel.app",
+	},
+	{
+		imgSrc: project8,
 		title: "Nike Clone",
 		tags: ["UI", "Tailwind CSS"],
 		projectLink: "https://nikeclonebymayur.vercel.app/",
 	},
 	{
-		imgSrc: project8,
+		imgSrc: project9,
 		title: "Random Joke Generator",
 		tags: ["HTML","CSS","JS", "API",],
 		projectLink: "https://randomjokegenerator.vercel.app/",

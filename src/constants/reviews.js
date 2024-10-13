@@ -35,18 +35,4 @@ export const reviews = [
 		imgSrc: alpeshbhatt,
 		company: "Omkar Jyotish",
 	},
-	// {
-	// 	content:
-	// 		"Professional work! Delivered on time, with a polished design and smooth user experience. Top-notch developer.",
-	// 	name: "Ava Thompson",
-	// 	imgSrc: people5,
-	// 	company: "TechMosaic",
-	// },
-	// {
-	// 	content:
-	// 		"Excellent project execution! High-quality code, responsive design, and exceptional problem-solving skills.",
-	// 	name: "Jonathan",
-	// 	imgSrc: people6,
-	// 	company: "Skyline Digital",
-	// },
 ];

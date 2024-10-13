@@ -22,6 +22,7 @@ import project5 from "./project-5.jpg";
 import project6 from "./project-6.jpg";
 import project7 from "./project-7.jpg";
 import project8 from "./project-8.jpg";
+import project9 from "./project-9.jpg";
 import reactLogo from "./react.svg";
 import tailwindCSSLogo from "./tailwindcss.svg";
 import HTML from "./html.svg";
@@ -66,6 +67,7 @@ export {
 	project6,
 	project7,
 	project8,
+	project9,
 	reactLogo,
 	tailwindCSSLogo,
 };
