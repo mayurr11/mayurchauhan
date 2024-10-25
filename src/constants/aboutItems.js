@@ -1,7 +1,7 @@
 export const aboutItems = [
 	{
 		label: "Project done",
-		number: 25,
+		number: 15,
 	},
 	{
 		label: "Years of experience",
