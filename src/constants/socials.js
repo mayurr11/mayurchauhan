@@ -13,7 +13,7 @@ export const socials = [
 	},
 	{
 		label: "WhatsApp",
-		href: "https://wa.me/+917359808697?text=Hello%20there!",
+		href: "https://wa.me/+917359808697?text=Hello%20Mayur!",
 	},
 	{
 		label: "GitHub",

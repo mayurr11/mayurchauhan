@@ -92,7 +92,7 @@ export const socialLinks = [
 		alt: "GitHub",
 	},
 	{
-		href: "https://wa.me/+917359808697",
+		href: "https://wa.me/+917359808697?text=Hello%20Mayur!",
 		icon: () => (
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
