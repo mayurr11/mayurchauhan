@@ -38,7 +38,7 @@ export const socialLinks = [
 		alt: "LinkedIn",
 	},
 	{
-		href: "https://www.instagram.com/mayurrrchauhan/",
+		href: "https://www.instagram.com/mayurchauhannnn/",
 		icon: () => (
 			<svg
 				width="25"

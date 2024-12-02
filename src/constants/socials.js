@@ -9,7 +9,7 @@ export const socials = [
 	},
 	{
 		label: "Instagram",
-		href: "https://www.instagram.com/mayurrrchauhan/",
+		href: "https://www.instagram.com/mayurchauhannnn/",
 	},
 	{
 		label: "WhatsApp",
