@@ -58,7 +58,7 @@ const Review = () => {
 
         {/* Scrollable container with hidden scrollbar */}
         <div
-          className="flex items-stretch gap-3 overflow-x-scroll hide-scrollbar cursor-grab"
+          className="flex items-stretch gap-3 overflow-x-scroll hide-scrollbar cursor-w-resize"
           ref={scrollContainerRef}
         >
           {reviews.map((review, key) => (
