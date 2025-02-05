@@ -33,7 +33,7 @@ export const works = [
 		imgSrc: project4,
 		title: "Saligram Realtor",
 		tags: ["Real Estate", "SPA"],
-		projectLink: "https://www.saligramrealtor.in/",
+		projectLink: "https://saligramrealtor.vercel.app/",
 	},
 	{
 		imgSrc: project5,
@@ -45,7 +45,7 @@ export const works = [
 		imgSrc: project6,
 		title: "Omkar Jyotish",
 		tags: ["Astrology", "i18Next"],
-		projectLink: "https://www.omkarjyotish.com/",
+		projectLink: "https://omkarjyotish.vercel.app/",
 	},
 	{
 		imgSrc: project7,
